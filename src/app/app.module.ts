@@ -15,8 +15,13 @@ import { LogoComponent } from './components/_common-components/logo/logo.compone
 /**
  * Material imports STARTS -->
  * */
+
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+import { MatDividerModule } from '@angular/material/divider';
+
 
 /**
  * Material imports ENDS
@@ -39,7 +44,10 @@ import { MatInputModule } from '@angular/material';
     BrowserAnimationsModule,
     MatSliderModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatCardModule,
+    MatButtonModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
